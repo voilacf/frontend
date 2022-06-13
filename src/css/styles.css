@@ -1,0 +1,509 @@
+/*These rules apply to index.html, settings.html and about.html*/
+/*HEADER*/
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #3e6b6b;
+    font-family: 'Oxygen', sans-serif;
+}
+#favicon{
+    width:32px;
+    height:32px;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    padding: 0;
+    box-shadow: none;
+}
+#header-nav{
+    background-color: #8d8d8d;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url('../images/Logo-with-shadowing.jpg') no-repeat;
+    width: 75x;
+    height: 75px;
+    margin: 10px 15px 10px 0;
+    float: left;
+    box-sizing: border-box;
+}
+#icon-logo{
+    background: url('../images/Icons/logo/icon-logo.png') no-repeat;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    margin-top: 0;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+/*Sunnysideup title*/
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+/*disabling the link underlining*/
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+/*Slogan*/
+.navbar-brand p{
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+/*VV-Logo*/
+.navbar-brand p span{
+    vertical-align: middle;
+}
+.navbar-brand img{
+    text-shadow: none;
+    box-shadow: none;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #3e6b6b;
+    float: right;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+/*END HEADER*/
+
+
+
+/*FOOTER*/
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#author, #address{
+    line-height: 2;
+}
+#author > span, #address > span{
+    font-size: 1.3em;
+}
+#address p{
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials{
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+/*END FOOTER*/
+
+
+
+
+
+
+/*These rules only apply to index.html*/
+/*HOMEPAGE*/
+.container .jumbotron{
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+#weather-tile{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Oxygen', sans-serif;
+}
+#weather-icon{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: 0;
+    padding: 0;
+    box-shadow: 0 0 5px #3F0C1F;
+    margin: 5px 10px 5px 5px;
+}
+#weather-division{
+    margin-right: 5px;
+}
+#temperature{
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+#humidity{
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+#weather-tile-division{
+    margin-bottom: 10px;
+    width: 1.5em;
+}
+#daily-mod{
+    margin-left: 5px;
+}
+#daily-module div{
+    margin-left: 5px;
+}
+.icon-tile {
+    float:left;
+}
+img{
+    height: 75px;
+    width: 75px;
+    border: 0;
+    padding: 0;
+    box-shadow: 0 0 4px #3F0C1F;
+    margin: 5px 10px 5px 5px;
+}
+#note{
+    clear:both;
+}
+#daily-timeline{
+    clear: both;
+    margin: 20px 10px 0 10px;
+}
+#useless-quote{
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
+#settings-tile, #about-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+#settings-tile:hover, #about-tile:hover, #map-tile:hover{
+    box-shadow:  1px 5px 1px #CCCCCC;
+}
+#settings-tile{
+    background: url('../../assets/Chrysanthemum.jpg') no-repeat center;
+}
+#about-tile{
+    background: url('../../assets/Tulips.jpg') no-repeat center;
+}
+#settings-tile span, #about-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .75;
+}
+/*END HOMEPAGE*/
+
+
+
+
+
+
+/*These rules only apply to settings.html*/
+/*SETTINGS*/
+#settings-panel h2{
+    font-family: 'Lora', serif;
+    font-variant-caps: small-caps;
+    margin-left: 10px;
+    text-shadow: 0 0 5px #3F0C1F;
+}
+#appearance-tile span, #location-tile span{
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 15px;
+    font-size: 14px;
+}
+#appearance-tile p, #location-tile p{
+    font-family: 'Lora', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+#dark-mod, #default-mod, #emoji, #realistic, #own, input{
+    margin: 5px 0 5px 10px;
+}
+#dark-mod:hover, #default-mod:hover, #emoji:hover, #realistic:hover, #own:hover, #save-button:hover{
+    background-color: lightgray;
+    color: #000;
+}
+.settings-hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*END SETTINGS*/
+
+
+
+
+
+
+/*These rules only apply to about.html*/
+/*INFO*/
+.info-heading{
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 10px 10px 10px 10px;
+    text-decoration-line: underline;
+}
+.jumbotron .info-text {
+    box-sizing: border-box;
+    padding: 0 10px 10px 10px;
+    margin: 5px 10px 10px 10px;
+    /*border: 5px solid #fcf2e3;*/
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align:justify;
+}
+/*END INFO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*These rules are necessary for the responsive webdesign; they apply to index.html, settings.html and about.html*/
+/********** Large devices only **********/
+@media (min-width: 1200px){
+    /*.container .jumbotron{
+        height: 675px;
+    }*/
+
+    .visible-lg-and-md {
+      opacity: 100%;
+    }
+    /* #settings-tile, #about-tile{
+        width: 100%;
+    } */
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+    /*Header*/
+    #logo-img{
+        box-sizing: border-box;
+        background: url('../images/Logo-with-shadowing.jpg') no-repeat;
+        width: 75px;
+        height: 75px;
+        margin: 5px 5px 5px 0;
+        float: left;
+        opacity: 100%;
+    }
+    /*End Header*/
+    /*Homepage*/
+    /*.container .jumbotron{
+        height: 558px;
+    }*/
+    /*End Homepage*/
+
+    .visible-lg-and-md {
+        opacity: 100%;
+      }
+    .footer-hr{
+        opacity: 0;
+    }
+}
+
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+    /*Homepage*/
+    /*.container .jumbotron{
+        height: 432px;
+    }*/
+    .visible-xs{
+        opacity: 0;
+    }
+    /*End Homepage*/
+
+    .visible-lg-and-md {
+        opacity: 0%;
+      }
+      .footer-hr{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        opacity: 0%;
+    }
+}
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+    .footer-hr{
+        margin-left: 25%;
+        margin-right: 0%;
+        
+    }
+    /*Header*/
+    .logo img{
+        float: left;
+        width: 75px;
+        height: 75px;
+        margin-left: 5px;
+        margin-right: 15px;
+        padding: 0;
+        box-shadow: none;
+    }
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    /*Restaurant name*/
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw; /*1vw = 1% of viewport width*/
+    }
+    /*Kosher cert*/
+    .navbar-brand p{
+        text-transform: uppercase;
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    /*Star-K*/
+    .navbar-brand p img{
+        height: 20px;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #xs-deliver{
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    /*End Header*/
+    /*Footer*/
+    .panel-footer section{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3){
+        margin-bottom: 0; /*margin already exists on the whole row*/
+    }
+    .panel-footer section hr{
+        width: 50%;
+    }
+    .visible-xs{
+        opacity: 100%;
+    }
+    hr.visible-xs{
+        text-align: center;
+        object-position: center;
+    }
+    .footer-hr{
+        align-items: center;
+        justify-content: center;
+        object-position: center;
+        opacity: 100%;
+    }
+    /*End Footer*/
+    /*Hoempage*/
+    /*.container .jumbotron{
+        margin-top: 30px;
+        padding: 0;
+    }*//*
+    #settings-tile, #about-tile{
+        width: 360px;
+        margin: 0 auto 15px;
+    }*/
+
+    .visible-lg-and-md {
+        opacity: 0%;
+      }    
+}
+
+
+
+/********** Super extra small devices only **********/
+@media (max-width: 479px){
+    /*Header*/
+    /*Restaurant name*/
+    .navbar-brand h1{
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    /*End Header*/
+    /*Homepage*/
+    #settings-tile, #about-tile{
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+
+
+
+    /*End Homepage*/
+    .visible-xs{
+        opacity: 100%;
+    }
+    hr.visible-xs{
+        object-position: center;
+        text-align: center;
+    }
+
+    .visible-lg-and-md {
+        opacity: 0%;
+      }
+}
